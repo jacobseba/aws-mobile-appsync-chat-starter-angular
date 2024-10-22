@@ -36,7 +36,7 @@
     "aws-amplify-angular": "^2.0.11",
     "aws-appsync": "^1.0.12",
     "babel-polyfill": "^6.26.0",
-    "core-js": "^2.5.3",
+    "core-js": "^3.23.3",
     "cuint": "^0.2.2",
     "graphql": "^15.0.0",
     "graphql-tag": "^2.12.0",
@@ -48,7 +48,7 @@
     "rxjs": "^6.3.3",
     "typed-graphql": "^1.0.2",
     "typescript": "^3.9.10",
-    "uuid": "^3.1.0",
+    "uuid": "^8.3.2",
     "zone.js": "^0.8.26"
   },
   "devDependencies": {
