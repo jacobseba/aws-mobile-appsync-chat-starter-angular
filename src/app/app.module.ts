@@ -1,3 +1,4 @@
+import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -34,7 +35,8 @@ Amplify.configure(aws_exports);
     FormsModule,
     NgbModule.forRoot(),
     ServiceWorkerModule.register('/ngsw-worker.js', { enabled: environment.production }),
-    AmplifyAngularModule
+    AmplifyAngularModule,
+    HttpClientModule,
   ],
   providers: [
     AmplifyService
