@@ -47,7 +47,7 @@
     "npm": "^6.14.2",
     "rxjs": "^6.3.3",
     "typed-graphql": "^1.0.2",
-    "typescript": "^3.9.10",
+    "typescript": "3.2.4",
     "uuid": "^8.3.2",
     "zone.js": "^0.8.26"
   },
